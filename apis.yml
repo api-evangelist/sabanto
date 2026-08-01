@@ -1,7 +1,28 @@
 aid: sabanto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sabanto.png
 name: Sabanto
-description: Sabanto is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sabanto is an agricultural autonomy company known for retrofitting existing
+  farm tractors and equipment with an autonomy kit and an autonomy-as-a-service
+  model, enabling unmanned tillage, planting, and field operations. It was
+  surfaced as a portfolio company of DCVC and added to the API Evangelist
+  network as a stub for enrichment. As of the enrichment pass on 2026-07-21 the
+  company's primary domain (sabanto.com) no longer resolves to a live site — it
+  redirects to a GoDaddy parked/for-sale page — so no developer portal, API,
+  documentation, SDK, GitHub organization, or other public API surface could be
+  found. This profile is retained as a lead with no live API surface at this
+  time.
 url: https://raw.githubusercontent.com/api-evangelist/sabanto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Agriculture
+- Autonomy
+- Robotics
+- Farming
+- AgTech
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: >-
+    Primary domain sabanto.com redirects to a GoDaddy for-sale parking page (HTTP
+    307); no live website, developer portal, API, docs, SDK, or GitHub org found.
+    No API surface to enrich.
